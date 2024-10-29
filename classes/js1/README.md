@@ -885,7 +885,7 @@ let listaDeCoisas = ['Aew', 35, true, [], 'outra string'];
 ---
 <!-- {"layout": "section-header", "hash": "mais-sobre-funcoes-e-metodos-uteis"} -->
 # Mais sobre funções, Métodos úteis
-## Mais coisas legais
+## Mais coisas legais 
 
 - Função atribuída a variável
 - Função como parâmetro
