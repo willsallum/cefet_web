@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **JavaScript** parte 2
-## JS no navegador, DOM, Eventos e o Espaço 👽
+## JS no navegador, DOM, Eventos e o Espaço
 
 ---
 <!-- {"layout": "centered"} -->
@@ -437,7 +437,7 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
 - É possível **alterar o conteúdo** <!-- {.alternate-color} --> de um elemento com `elemento.innerHTML`:
 
   <iframe width="250" height="130" src="//jsfiddle.net/fegemo/wLp3kv59/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right;"></iframe>
-  
+
   <iframe width="250" height="153" src="//jsfiddle.net/fegemo/wLp3kv59/embedded/html/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right;"></iframe>
 
   ```js
