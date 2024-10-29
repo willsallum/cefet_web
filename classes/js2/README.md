@@ -13,7 +13,6 @@
    1. Alteração de conteúdo
    1. Alteração de classes
 1. [Eventos](#eventos)
-1. [Exploração Espacial 👽](#exploracao-espacial)
 
 ---
 <!-- {"layout": "section-header", "hash": "javascript-no-navegador"} -->
