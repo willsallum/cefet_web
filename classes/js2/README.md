@@ -417,6 +417,7 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
 # Alterando **conteúdo** <small>(1/2)</small>
 
 - É possível alterar atributos dos nós: <!-- {ul:.compact-code} -->
+
   ```html
   <a href="/contato" id="link-contato">...</a>
   ```
@@ -434,7 +435,9 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
 # Alterando **o conteúdo** <small>(2/2)</small>
 
 - É possível **alterar o conteúdo** <!-- {.alternate-color} --> de um elemento com `elemento.innerHTML`:
+
   <iframe width="250" height="130" src="//jsfiddle.net/fegemo/wLp3kv59/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right;"></iframe>
+  
   <iframe width="250" height="153" src="//jsfiddle.net/fegemo/wLp3kv59/embedded/html/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right;"></iframe>
 
   ```js
