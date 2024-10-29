@@ -176,7 +176,7 @@
 
 ---
 <!-- {"hash": "evento-clique"} -->
-# **Exemplo**: clique em um botão
+## Exemplo: clique em um botão
 
 - Para **executar alguma coisa quando um botão** (ou qualquer elemento, na verdade)
   **é clicado**, precisamos **registrar uma função para ser chamada** quando um
@@ -248,7 +248,7 @@
   ```js
   let inputs = document.querySelectorAll('input');      // inputs é um 'NodeList'
   ```
-- <!-- {.no-bullets.codigos-com-pouco-espaco-vertical style="margin-top: 1em;"} -->
+ <!-- {.no-bullets.codigos-com-pouco-espaco-vertical style="margin-top: 1em;"} -->
   ```js
   // propriedade .length (igual um array)
   console.log('Quantidade de elementos: ' + inputs.length');
@@ -268,7 +268,7 @@
 ## `NodeList` vs Vetor
 
 - Um **`NodeList`** é praticamente um _array_, mas **não possui todos os métodos**. Por exemplo:
-- <!-- {.code-split-2.compact-code-more} -->
+ <!-- {.code-split-2.compact-code-more} -->
   ```js
   umNodeList.length        ✅
   umNodeList[5]            ✅
@@ -356,11 +356,9 @@
 
 ---
 
-::: figure .figure-slides.clean.centered
 ![](../../images/dom-traversal.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![](../../images/dom-traversal-2.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![](../../images/dom-traversal-3.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
-:::
 
 ---
 <!-- {"layout": "centered-horizontal"} -->
@@ -478,8 +476,8 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
   imageEl.classList.remove('oculta');     // remove .oculta
   pEl.classList.toggle('expandido');      // coloca ou tira .expandido
   ```
-  - <iframe width="250" height="170" src="//jsfiddle.net/fegemo/wbq109xg/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right bring-forward"></iframe>
-    Isso pode ser usado, por exemplo, para ↘<br>"marcar" elementos
+   <iframe width="250" height="170" src="//jsfiddle.net/fegemo/wbq109xg/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right bring-forward"></iframe>
+  -  Isso pode ser usado, por exemplo, para ↘<br>"marcar" elementos
     <!-- {li:.bring-forward} -->
   - Ou então pra fazer um menu lateral aparecer...
 
@@ -577,19 +575,18 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
 
 - É bastante comum associarmos uma mesma função (_callback_) a algum evento de vários elementos HTML diferentes <!-- {ul:.bulleted} -->
   - Como no exercício: _callback_ de `'click'` em TODOS os parágrafos
-  - <!-- {.code-split-2.compact-code-more} -->
-    - <!-- {ul:.no-bullets.no-padding} -->
+   <!-- {.code-split-2.compact-code-more} -->
+    <!-- {ul:.no-bullets.no-padding} -->
       ```html
       <p>Parágrafo 1</p>
       <p>Parágrafo 2</p>
       <p>Parágrafo 3</p>
       ```
-      ::: result .example-ps.bullet
       <style>.example-ps p {font-size: 0.8em}</style>
       <p onclick="this.style.background='lightblue'">Parágrafo 1</p>
       <p onclick="this.style.background='lightblue'">Parágrafo 2</p>
       <p onclick="this.style.background='lightblue'">Parágrafo 3</p>
-      :::
+
     ```js
     function colore() {
       let el = ??; // <-- quem colocar aqui??
@@ -610,14 +607,14 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
 
 - Quando o navegador executa uma _callback_ de eventos, ele passa um parâmetro com  **informações sobre o evento** <!-- {ul:.compact-code} -->
   - Tipicamente damos o nome de `e`, `evt` ou `event`:
-    - <!-- {ul:.no-bullets.no-padding.bulleted} -->
+     <!-- {ul:.no-bullets.no-padding.bulleted} -->
       ```js
       let ps = document.querySelectorAll('p');  // igualzinho antes!
       for (let pEl of ps) {
         pEl.addEventListener('click', colore);
       }
       ```
-    - ```js
+      ```js
       function colore(e) {                  // repare o argumento 'e' (evento)
         let el = e.currentTarget;           // <--- o elemento "alvo" do evento
         el.style.background = 'lightblue';  // colore parágrafo alvo do evento
@@ -705,7 +702,7 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
 ## Exploração Espacial 👽
 
 - Crie a página da **Exploração Espacial** :alien:
-  - [Repositório no GitHub](https://github.com/fegemo/cefet-web-space)
+  - [Repositório no GitHub](https://github.com/willsallum/cefet_web_space)
     para fazer seu _fork_
 - Há 3 exercícios:
   1. Formulários e equação
@@ -738,7 +735,7 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
 
 - Há outra forma de subir, mais recente e mais segura: `el.closest(seletor)` <!-- {ul:.bulleted-0} -->
 - Ela seleciona o ancestral mais próximo de `el` que atenda ao `seletor`:
-  - <!-- {ul:.code-split-2.no-margin.no-bullets.no-padding} -->
+   <!-- {ul:.code-split-2.no-margin.no-bullets.no-padding} -->
     ```html
     <article class="produto" id="produto-456"> ⬅️
       <div>
@@ -746,7 +743,7 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
       </div>
     </article>
     ```
-  - <!-- {.bullet} -->
+   <!-- {.bullet} -->
     ```js
     function imagemProdutoClicado(e) {
       const imgEl = e.currentTarget;
@@ -755,7 +752,7 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
     }
     ```
 - Exemplo subindo e descendo:
-  - <!-- {ul:.code-split-2.no-margin.no-bullets.no-padding} -->
+   <!-- {ul:.code-split-2.no-margin.no-bullets.no-padding} -->
     ```html
     <article class="produto">
       <h3 class="nome">Bolsa caríssima</h3> ⬅️
@@ -764,7 +761,7 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
       </div>
     </article>
     ```
-  - <!-- {.bullet} -->
+   <!-- {.bullet} -->
     ```js
     function imagemProdutoClicado(e) {
       const imgEl = e.currentTarget;
