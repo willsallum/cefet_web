@@ -160,7 +160,7 @@
 
 ---
 <!-- {"hash": "recuperando-elemento-dom"} -->
-# Selecionando um elemento
+## Selecionando um elemento
 
 - A função `document.querySelector(seletor)` permite que, a partir de um código
   JavaScript, recuperemos uma referência a um elemento do DOM
