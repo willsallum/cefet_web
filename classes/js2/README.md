@@ -715,7 +715,7 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
 ---
 <!-- {"hash": "subindo-na-arvore", "classes": "compact-code-more"} -->
 # Subindo na árvore do DOM <small>(1/2)</small>
-
+## <span style="color:white;">Subindo na árvore do DOM (1/2)</span>
 - Todo elemento do DOM conhece, na árvore, quem é:
   1. seu pai (**`elemento.parentNode`** ou `elemento.parentElement`)
   1. seus filhos (`elemento.childNodes` ou `elemento.children`)
