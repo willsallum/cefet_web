@@ -685,31 +685,7 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
   ```
 
 ---
-<!-- {"layout": "section-header", "hash": "exploracao-espacial"} -->
-# Exploração Espacial 👽
-## Conhecendo o além-atmosfera
 
-- Atividade de hoje
-- Que elemento foi clicado?
-- Subindo na árvore do DOM
-- Alternando uma classe
-<!-- {ul:.content} -->
-
----
-<!-- {"backdrop": "space"} -->
-
----
-## Exploração Espacial 👽
-
-- Crie a página da **Exploração Espacial** :alien:
-  - [Repositório no GitHub](https://github.com/willsallum/cefet_web_space)
-    para fazer seu _fork_
-- Há 3 exercícios:
-  1. Formulários e equação
-  1. Galeria de fotos e imagens da sonda Osiris-Rex
-  1. Expandir/retrair parágrafos
-
----
 <!-- {"hash": "subindo-na-arvore", "classes": "compact-code-more"} -->
 # Subindo na árvore do DOM <small>(1/2)</small>
 ## <span style="color:white;">Subindo na árvore do DOM (1/2)</span>
