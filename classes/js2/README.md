@@ -105,7 +105,7 @@
 ---
 <!-- {"layout": "section-header", "hash": "o-dom"} -->
 # O DOM
-## Dando comportamento à página
+## Dando comportamento a pagina
 
 - Conhecendo o DOM
 - Selecionando elementos
@@ -119,10 +119,10 @@
 
 ---
 <!-- {"hash": "conhecendo-o-dom"} -->
-# Conhecendo o DOM
+## Conhecendo o DOM
 
 - O DOM é uma **visão dos elementos** HTML da página **como uma árvore**:
-- <!-- {.code-split-2.compact-code} -->
+ <!-- {.code-split-2.compact-code} -->
   ```html
   <!DOCTYPE html>
   <html>
