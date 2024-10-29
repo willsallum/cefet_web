@@ -470,7 +470,7 @@ caminhaNoDOM(document.body, imprimeNomeDaTag);
 
 ---
 <!-- {"hash": "colocando-removendo-classes"} -->
-# Colocando/removendo **classes**
+## Colocando/removendo classes
 
 - É possível **colocar ou remover classes** <!-- {.alternate-color} --> de elementos: <!-- {ul:.bulleted} -->
   ```js
