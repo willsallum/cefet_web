@@ -209,7 +209,7 @@
 
 ---
 <!-- {"hash": "selecionando-varios-elementos"} -->
-# Selecionando vários elementos <small>(1/3)</small>
+## Selecionando vários elementos (1/3)
 
 - O `document.querySelector` retorna **apenas 1 elemento**
   - Se tiver mais de um, retorna o primeiro encontrado
