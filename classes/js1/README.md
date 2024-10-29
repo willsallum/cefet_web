@@ -842,7 +842,7 @@ let listaDeCoisas = ['Aew', 35, true, [], 'outra string'];
 
 ---
 <!-- {"layout": "2-column-content", "hash": "for-formas-mais-legais"} -->
-## **for** (formas **mais legais**)
+## for (formas mais legais)
 
 1. **For of**: `for (let item of array)` <!-- {ol:.no-bullets} -->
    ```js
